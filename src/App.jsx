@@ -20,17 +20,19 @@ const App = () => {
   }, [])
 
   return (
-    <div>
+    <div className='max-w-[1200px] mx-auto'>
 
-      {
-        title.map((item) => (
-          <div className='text-center' key={item.id}>
-            <div>
-              <h3 className='font-bold bg-gray-500 text-white max-w-[500px] p-2'>{item.title}</h3>
+      <div className='flex justify-between flex-wrap '>
+        {
+          title.map((item) => (
+            <div className='text-center' key={item.id}>
+              <div>
+                <h3 className='p-3 font-bold bg-white/5 backdrop-blur-lg rounded-lg text-white max-w-[300px] p-2 mt-2'>{item.title}</h3>
+              </div>
             </div>
-          </div>
-        ))
-      }
+          ))
+        }
+      </div>
 
 
     </div>

@@ -1,1 +1,8 @@
 @import "tailwindcss";
+body{
+    background-image:url('./assets/windows-11-dark-mode-blue-stock-official-3840x2400-5630.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
